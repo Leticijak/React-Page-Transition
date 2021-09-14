@@ -16,23 +16,26 @@ const NavbarLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   padding: 1rem;
+  font-weight: bold;
+  font-size: 22px;
 `;
 const Logo = styled(Link)`
   color: #fff;
   padding-left: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
-  font-style: italic;
+  text-decoration: none;
 `;
 
 const Header = () => {
   return (
     <Navbar>
-      <Logo to="/">Animal</Logo>
+      <Logo to="/">LOGO</Logo>
       <NavItems>
         <NavbarLink to="/">Home</NavbarLink>
         <NavbarLink to="/about">About</NavbarLink>
         <NavbarLink to="/services">Services</NavbarLink>
+        <NavbarLink to="/page">Page</NavbarLink>
       </NavItems>
     </Navbar>
   );

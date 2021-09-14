@@ -1,8 +1,17 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Image from "../images/img2.jpg";
+import { motion } from "framer-motion";
+import { animationFour } from "../animations";
 
 const Services = () => {
-  return <Layout>Services</Layout>;
+  return (
+    <motion.div initial="out" animate="end" exit="out" variants={animationFour}>
+      <Header />
+      <Hero image={Image} />
+    </motion.div>
+  );
 };
 
 export default Services;
