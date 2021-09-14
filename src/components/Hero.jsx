@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
-  background: url(${({ image }) => image && image}) center no-repeat;
+  background: url(${({ image }) => image && image}) center;
   height: 100vh;
   display: flex;
   justify-content: flex-start;

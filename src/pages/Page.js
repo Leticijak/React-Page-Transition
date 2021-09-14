@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Image from "../images/img5.jpg";
+import Image from "../images/img3.jpg";
 import { motion } from "framer-motion";
 import { animationOne } from "../animations";
 
