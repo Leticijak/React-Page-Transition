@@ -15,7 +15,7 @@ const About = () => {
       transition={transitionTwo}
     >
       <Header />
-      <Hero image={Image} />
+      <Hero image={Image} btndesc="Learn More" />
     </motion.div>
   );
 };

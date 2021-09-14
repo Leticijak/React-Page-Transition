@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <motion.div initial="out" animate="end" exit="out" variants={animationFour}>
       <Header />
-      <Hero image={Image} />
+      <Hero image={Image} btndesc="Learn More" />
     </motion.div>
   );
 };

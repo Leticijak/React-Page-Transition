@@ -13,6 +13,7 @@ const Page = () => {
         title="Welcome to the Page"
         desc="Learn more about us"
         image={Image}
+        btndesc="Learn More"
       />
     </motion.div>
   );
