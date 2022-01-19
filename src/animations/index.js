@@ -5,13 +5,13 @@ export const animationOne = {
   out: {
     opacity: 0,
   },
-};
+}
 export const transitionTwo = {
-  duration: 0.2,
-};
+  duration: 0.1,
+}
 export const transitionFour = {
-  duration: 0.4,
-};
+  duration: 0.1,
+}
 
 export const animationTwo = {
   in: {
@@ -22,9 +22,9 @@ export const animationTwo = {
   out: {
     opacity: 0,
     y: "-100vh",
-    scale: 0.3,
+    scale: 0.2,
   },
-};
+}
 
 export const animationTree = {
   in: {
@@ -37,19 +37,19 @@ export const animationTree = {
     x: "-100vw",
     scale: 0.3,
   },
-};
+}
 
 export const animationFour = {
   in: {
     opacity: 1,
-    x: -300,
+    x: -220,
   },
   out: {
     opacity: 0,
-    x: 300,
+    x: 200,
   },
   end: {
     x: 0,
     opacity: 1,
   },
-};
+}

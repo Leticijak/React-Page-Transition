@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
-import Image from "../images/image2.webp"
+import Image from "../images/image4.webp"
 import { motion } from "framer-motion"
 import { animationOne } from "../animations"
 

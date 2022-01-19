@@ -1,14 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
 const Section = styled.section`
-  background: url(${({ image }) => image && image}) center;
+  background: url(${({ image }) => image && image});
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   margin-top: -60px;
-`;
+`
 const Container = styled.div`
   color: #fff;
   padding: 2rem;
@@ -37,7 +38,7 @@ const Container = styled.div`
     cursor: pointer;
     outline: none;
   }
-`;
+`
 
 const Hero = ({ image, title, desc, btndesc }) => {
   return (
@@ -50,13 +51,13 @@ const Hero = ({ image, title, desc, btndesc }) => {
         </Container>
       </Section>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
 
 Hero.defaultProps = {
   title: "we are the best",
   desc: "This is the best description",
   btndesc: "Learn More",
-};
+}
